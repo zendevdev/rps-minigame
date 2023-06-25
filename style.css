@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    background-color: #e9d8a6;
+opacity: 1;
+background-image:  linear-gradient(135deg, #e8cca5 25%, transparent 25%), linear-gradient(225deg, #e8cca5 25%, transparent 25%), linear-gradient(45deg, #e8cca5 25%, transparent 25%), linear-gradient(315deg, #e8cca5 25%, #e9d8a6 25%);
+background-position:  23px 0, 23px 0, 0 0, 0 0;
+background-size: 46px 46px;
+background-repeat: repeat;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    height: 100vh;
+
+}
+
+#Welcome{
+    font-size: 1.8em;
+    padding: 20px 0;
+    color: #f25c54
+}
+
+
+#gameDiv{
+    text-align: center;
+    background: #f7b267;
+    border-radius: 12px; 
+    border: 3px solid black;
+    box-shadow: 10px 10px 0 black;
+    padding: 60px 120px 40px 120px;
+    margin: auto 0;
+}
+
+#gameTitle{
+    color: black;
+    font-size: 3em;
+}
+
+#gameScore{
+    display: grid;
+    grid-template-columns: 120px 100px 120px;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.versus{
+    font-size: 5em;
+    color: #f25c54;
+}
+
+#playerText, #pcText{
+    padding: 20px;
+    font-size: 3.5em;
+    margin: 0;
+    text-shadow: 3px 3px 0 black;
+    margin-top: 20px;
+}
+
+#gameScore p{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+#resultText{
+    margin-top: 5px;
+    font-size: 48px;
+    width: 310px;
+    text-align: center;
+    color: #f27059;
+    border-radius: 12px;
+    text-shadow: 3px 3px 0 black;
+    padding: 20px;
+}
+
+.gameText{
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.buttons{ 
+    margin-top: 5px;
+    text-align: center;
+    width: 350px;
+}
+
+.choiceBTN{
+    margin-left: 5px;
+    height: 95px;
+    width: 95px;
+    border: none;
+    background: none;
+    font-size: 2.4em;
+    background-color: #f27059;
+    border: 3px solid black;
+    box-shadow: 2px 2px 0 black;
+    border-radius: 50%;
+    text-shadow: 2px 2px 0 black;
+    transition: all 0.2s ease;
+}
+
+.choiceBTN:hover{
+    transform: scale(1.1);
+}
+
+.choiceBTN:active{
+    transform: scale(0.9);
+}
+
+.rights{ 
+    margin-top: 40px;
+    font-size: 0.85em;
+    color: #f27059;
+}
